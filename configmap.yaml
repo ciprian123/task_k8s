@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-demo
+data:
+  database_url: jdbc:mysql://host:33060/ciprian-ursulean
+  database_name: mysql
+  database_type: SQL
