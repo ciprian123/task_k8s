@@ -30,7 +30,7 @@ kubectl apply -f secret-printer-pod.yaml
 kubectl logs pods/secret-printer-pod
 
 
-# pentru podul care afiseaza fin configmap
+# pentru podul care afiseaza din configmap
 kubectl apply -f configmap.yaml
 kubectl get configmap
 
