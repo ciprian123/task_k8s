@@ -1,7 +1,6 @@
 # initial rulam:
 minikube start
-kubectl get pods
-
+kubectl get pods ## or kubectl cluster-info/kubectl get nodes/minikube status
 
 # pentru deploymentul si serviciul nginx:
 kubectl apply -f nginx.yml
